@@ -29,7 +29,7 @@ class Modal extends Component {
                 >
                     {this.props.children}
 
-                    <button onClick={this.props.modalClosed}>Close</button>
+                    <button onClick={this.props.modalClosed} className={classes.BtnModal}>Close</button>
                 </div>
             </div>
         )

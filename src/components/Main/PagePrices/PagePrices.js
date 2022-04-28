@@ -12,6 +12,7 @@ class PagePrices extends Component {
                 <HeaderPrice />
                 <div >
                    <Table/>
+                   {/* <div className={classes.PartyPass}><a href="https://my.weezevent.com/havana-en-belgrado-10" >Party pass - 65e</a></div> */}
                 </div>
             </div>
         )

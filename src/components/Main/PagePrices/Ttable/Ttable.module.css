@@ -4,6 +4,7 @@
     border: solid 1px rgb(197, 197, 197);
     border-radius: 2px;
     box-shadow: 5px 5px 10px #e9e6e6;
+    
 }
 
 .Drugi{
@@ -12,4 +13,21 @@
 
 .Table tbody tr th{
     padding: 30px;
+}
+
+.BookNow{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #0eb0ef;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+    top: 1rem;
+}
+
+.BookNow:hover{
+    /* transform: scale(1.2); */
+    background-color: #ec1d25;
+    transition: 0.3s;
 }

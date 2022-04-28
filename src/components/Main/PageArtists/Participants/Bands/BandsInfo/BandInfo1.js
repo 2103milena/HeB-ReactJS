@@ -1,11 +1,17 @@
 import React from 'react';
 
 
-const Band1 = () =>{
-    return(
+const Band1 = () => {
+    return (
         <div>
-            <h3>Band 1</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h3>Havana de Primera</h3>
+            <p>The first moment we heard them we fell in love with their music. It was 2007.<br/>
+                The first time we met them, we felt in love with their energy. It was 2010.<br/>
+                The first time we hosted them we fell in love with their humility. It was 2015.<br/>
+                They are a big part of our journey and we are happy to be their friends. This will be the third time they are playing at HeB and every time was incredible and very special for us.<br/>
+<br/><br/>
+
+                With small 2 years delay, again at HeB - ALEXANDER ABREU Y HAVANA D’PRIMERA!!!</p>
         </div>
     )
 }

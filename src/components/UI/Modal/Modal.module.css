@@ -11,6 +11,10 @@
     transition: all 0.3s ease-out;
 }
 
+.BtnModal{
+    background-color: #0eb0ef;
+}
+
 @media (min-width: 600px) {
     .Modal {
         width: 500px;
@@ -18,5 +22,12 @@
         top: 30%;
         padding: 16px;
 
+    }
+}
+
+@media (min-width: 900px){
+    .BtnModal{
+        position: relative;
+        bottom: 10px;
     }
 }

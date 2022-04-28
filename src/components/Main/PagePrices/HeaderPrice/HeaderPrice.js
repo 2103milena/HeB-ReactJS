@@ -9,7 +9,7 @@ const HeaderPrice = () => {
         <div>
             <div className={classes.DivSlika}>
                 <div className={classes.TextSlika} >
-                    BUY YOUR PASS !
+                    BUY PASS
                 <hr />
                 </div>
             </div>

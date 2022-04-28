@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 
-import yusimy from '../../../../../assets/images/yusimi99.jpg';
-import yuliet from '../../../../../assets/images/yulietsaul.jpg';
+import hdp from '../../../../../assets/images/10.png';
 import classes from '../Teachers/Teachers.module.css';
 import Modal from '../../../../UI/Modal/Modal';
 import Band1 from './BandsInfo/BandInfo1';
-import Band2 from './BandsInfo/BandInfo2';
+// import Band2 from './BandsInfo/BandInfo2';
 
 
 class Bands extends Component {
@@ -23,13 +22,13 @@ class Bands extends Component {
         this.setState({ purchasing1: false })
     }
 
-    purchaseHandler2 = () => {
-        this.setState({ purchasing2: true })
-    }
+    // purchaseHandler2 = () => {
+    //     this.setState({ purchasing2: true })
+    // }
 
-    purchaseCancelHandler2 = () => {
-        this.setState({ purchasing2: false })
-    }
+    // purchaseCancelHandler2 = () => {
+    //     this.setState({ purchasing2: false })
+    // }
 
     render() {
         return (
@@ -37,17 +36,20 @@ class Bands extends Component {
                 <Modal 
                 show={this.state.purchasing1} 
                 modalClosed={this.purchaseCancelHandler1}>
-                    <Band1/>
+                    <Band1/> 
                 </Modal>
-                <Modal show={this.state.purchasing2} modalClosed={this.purchaseCancelHandler2}>
+                {/* <Modal show={this.state.purchasing2} modalClosed={this.purchaseCancelHandler2}>
                     <Band2/>
-                </Modal>
+                </Modal> */}
                 <div className={classes.Divv} >
-                    <img onClick={this.purchaseHandler1} className={classes.Participant} src={yuliet} alt="DJs" />
+                    <img 
+                    onClick={this.purchaseHandler1}
+                     className={classes.Participant}
+                      src={hdp} alt="DJs" />
                 </div> 
-                <div className={classes.Divv}>
+                {/* <div className={classes.Divv}>
                     <img onClick={this.purchaseHandler2} className={classes.Participant} src={yusimy} alt="DJs" />
-                </div>
+                </div> */}
             </div>
         )
     }

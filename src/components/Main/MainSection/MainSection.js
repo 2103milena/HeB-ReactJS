@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import classes from './MainSection.module.css';
 
-import Button from '../../UI/Button/Button';
+// import Button from '../../UI/Button/Button';
 import MainTitle from '../MainTitle/MainTitle';
 import sample from '../../../assets/videos/heb.mp4';
-import poster from '../../../assets/images/afterr.jpg';
+
 
 
 
@@ -22,7 +22,7 @@ class MainSection extends Component {
                     {/* <div className={classes.ImgDiv}>
                     </div>
                     */}
-                    <video width="80%" controls>
+                    <video controls className={classes.Video} >
                         <source src={sample} type="video/mp4"/>
                           
                     </video>

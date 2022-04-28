@@ -21,7 +21,7 @@ class Main extends Component {
                         <div className={classes.Hebisback}><span className={classes.EnX}>H<span className={classes.Bela}>E</span>B</span><span className={classes.DecadeWord}> is </span><span className={classes.EnX}>BACK</span> 
                         </div>
                         <div className={classes.Sept}>1 - 4 September 2022 </div>
-                        <a href={"https://my.weezevent.com/early-bird-heb10"} className={classes.BookNow}>BUY EARLY BIRD</a>
+                        <a href={"https://my.weezevent.com/havana-en-belgrado-10"} className={classes.BookNow}>BUY PASS</a>
                     </div>
                 </div>
 

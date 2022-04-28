@@ -9,14 +9,8 @@
 
 
 @media(max-width: 900px){
-    .ImgDiv{
-        height: 250px;
-        padding: 20px 5px;
-        background-image: url("../../../assets/images/coverrr2.jpg");
-        background-size: cover;     
-    }
-    .ImgDiv div{
-        margin-bottom: 15px;
+    .Video{
+        width: 95%;
     }
 
     .UnderPic{
@@ -34,30 +28,19 @@
         bottom: 6rem;
         font-size: 1.3rem;
     }
+    .Video{
+        width: 75%;
+    }
     
     .MainSection{
         width: 100%;
         padding-top: 30px;     
     }
-    .ImgDiv{
-     
-        height: 700px;
-        background-image: url("../../../assets/images/afterr.jpg");
-        background-size: cover;
-        position: relative;
-        bottom: 15px;
-    }
 
-    .ImgDiv div{
-        position: relative; 
-        top:150px;
-        font-size: 30px;
-    }
     .MainSectionImage {
         width: 90%;
         z-index: -2;     
     }
-   
 }
 
 .UnderPic{

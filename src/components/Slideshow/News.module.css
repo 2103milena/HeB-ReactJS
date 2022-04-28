@@ -6,6 +6,8 @@
     rgba(0, 0, 0, 0.212)) */
     /* background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgba(4, 0, 255, 0.137), rgba(255, 0, 0, 0.158),rgba(99, 88, 255, 0)); */
 }
+
+
 .Carousel, .Naslov, .Hr{
     transform: skew(0, 4deg);
 }
@@ -22,6 +24,7 @@
     background: linear-gradient(to right,#fff,#0eb0ef, #ec1d25, #fff);
     width: 40%;
     height: 3px;
+    /* transition: width 0.5s ease, margin-left 0.5s ease; */
 }
 
 .textCarousel{
@@ -47,6 +50,7 @@
     }
     .ImgSlide{
         padding: 5px;
+        
     }
     .DivNews div{
         margin: 30px 0px;
@@ -55,39 +59,52 @@
         padding: 20px 40px ;
     }
     .textCarousel{
-        margin-bottom:20px
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 1300px){
+    .textCarousel{
+        font-size: 20px;
+        margin-top: 50px;
     }
 }
 
 @media (min-width: 901px) {
-    /* .Pic{
-        margin: 0 100px;
-    } */
+    .NewsContainer{
+        margin-bottom: -150px;
+    }
     .Naslov {
         top: 90px;
     }
     .Hr {
         margin-top: 100px;
         margin-bottom: 100px;
+        
     }
     .Pic{
-        width: 43%;
+        width: 80%;
+        border-radius: 4px;
+        box-shadow: 0px 10px 10px 0px rgba(43, 43, 43, 0.233); 
+
     }
      .ImgSlide{ 
-          display: flex;
-         align-items: center;
-         justify-content: space-around;   
+          /* display: flex;
+         align-items: center; */
+         /* justify-content: left;    */
     }  
     Button{
-        display: block;
+        /* display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; */
+        position: relative;
+        bottom:65px;
     }
-    .DivNews{
-        margin: auto 110px;
-        font-size: 18px;
-        /* line-height: 25px; */
-    }
+    /* .DivNews{ */
+        /* margin: auto 110px;
+        font-size: 18px; */   
+    /* } */
     .DivNews div{
         position: relative;
         bottom: 40px;
@@ -99,3 +116,15 @@
         padding-bottom: 50px;
     }
 }
+
+@keyframes HrAnimation {
+    0% {background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgb(4, 0, 248), rgb(255, 0, 0),rgba(99, 88, 255, 0));
+        background-position: 0% 50%;}
+    50% {    background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgb(255, 0, 0), rgb(4, 0, 248),rgba(99, 88, 255, 0));
+        background-position: 100% 50%}
+    100% {background-image: linear-gradient(to right, rgba(255, 85, 85, 0), rgb(4, 0, 248), rgb(255, 0, 0),rgba(99, 88, 255, 0));
+        background-position: 0% 50%;}
+  }
+
+
+

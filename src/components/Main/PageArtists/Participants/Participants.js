@@ -9,19 +9,19 @@ class Participants extends Component {
         slike: [
             {
                 name: 'TEACHERS',
-                image: require('../../../../assets/images/teachers.jpg'),
+                image: require('../../../../assets/images/yoyo99.jpg'),
                 alt: 'jedan',
                 link: '/artists/teachers'
             },
             {
                 name: 'DJs',
-                image: require('../../../../assets/images/djs2.jpg'),
+                image: require('../../../../assets/images/dj.jpg'),
                 alt: 'dva',
-                link: '/artists/DJs'
+                // link: '/artists/DJs'
             },
             {
                 name: 'BANDS',
-                image: require('../../../../assets/images/bands.jpg'),
+                image: require('../../../../assets/images/bands.JPG'),
                 alt: 'tri',
                 link: '/artists/bands'
             }

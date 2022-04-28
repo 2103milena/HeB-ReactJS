@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import andy from '../../../../../assets/images/andyu.jpg';
-import dvojica from '../../../../../assets/images/dvojica99.jpg';
-import yoyo from '../../../../../assets/images/yoyo99.jpg';
-import yusimy from '../../../../../assets/images/yusimi99.jpg';
-import yuliet from '../../../../../assets/images/yulietsaul.jpg';
+// import andy from '../../../../../assets/images/andyu.jpg';
+// import dvojica from '../../../../../assets/images/dvojica99.jpg';
+// import yoyo from '../../../../../assets/images/yoyo99.jpg';
+// import yusimy from '../../../../../assets/images/yusimi99.jpg';
+// import yuliet from '../../../../../assets/images/yulietsaul.jpg';
 import classes from '../Teachers/Teachers.module.css';
 import Modal from '../../../../UI/Modal/Modal';
 import DJ1 from './DJInfo/DJInfo1';
@@ -58,15 +58,15 @@ class DJs extends Component {
                 >
                     <DJ2 />
                 </Modal>
-                <div className={classes.Divv}>
+                {/* <div className={classes.Divv}>
                     <img
                         onClick={this.purchaseHandler1}
                         className={classes.Participant} src={andy} alt="DJs" />
-                </div>
+                </div> */}
 
                 {/* artisti */}
 
-                <div className={classes.Divv}>
+                {/* <div className={classes.Divv}>
                     <img
                         onClick={this.purchaseHandler2}
                         className={classes.Participant} src={dvojica} alt="DJs" />
@@ -83,7 +83,7 @@ class DJs extends Component {
                 </div>
                 <div className={classes.Divv}>
                     <img className={classes.Participant} src={yusimy} alt="DJs" />
-                </div>
+                </div> */}
             </div>
         )
     }

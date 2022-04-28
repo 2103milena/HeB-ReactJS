@@ -6,11 +6,11 @@ class Table extends Component {
 
     state = {
         details: [
-            { title: 'FULL PASS until July 31st', firstPrice: '110 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
-            { title: 'FULL PASS until September 30st', firstPrice: '120 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
-            { title: 'FULL PASS until October 31st', firstPrice: '130 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
-            // { title: 'FULL PASS until November 1st', firstPrice: '140 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: '2 concerts' },
-            // { title: 'PARTY PASS', firstPrice: 'firstPrice5', secondPrice: 'secondPrice5', thirdPrice: 'thirdPrice5' }
+            { title: 'FULL PASS until May 31st', firstPrice: '120 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
+            { title: 'FULL PASS until July 31st', firstPrice: '130 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
+            { title: 'FULL PASS until August 31st', firstPrice: '140 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
+            { title: 'FULL PARTY PASS', firstPrice: '65 e', secondPrice: '/ ', thirdPrice: 'Parties (4 days)', concerts: 'Concert'  }
+            // { title: 'PARTY PASS', firstPrice: '65 e' }
         ]
     }
     render() {
@@ -48,13 +48,12 @@ class Table extends Component {
                                 </tr>
                                 <tr>
                                     <td className={classes.Drugi}>
-                                        <Button>
-                                            BUY NOW
-                                        </Button>
+                                    <a href={"https://my.weezevent.com/havana-en-belgrado-10"} className={classes.BookNow}>BUY PASS</a>
                                     </td>
                                 </tr>
 
                             </tbody>
+                            
                         </table>
                     )
                 })}
