@@ -13,3 +13,21 @@
     /* text-align: left; */
     margin-bottom: 15px;
 }
+
+
+
+.Venues{
+    margin: 50px auto;
+    padding: 50px;
+    border: solid 1px rgb(216, 216, 216);
+    max-width: 250px;
+}
+
+@media(max-width: 900px){
+    .List div ul{
+        padding: 0px;
+    }
+    .ThursdaySection{
+        margin-bottom: -60px;
+    }
+}

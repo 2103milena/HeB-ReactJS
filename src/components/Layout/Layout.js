@@ -43,7 +43,7 @@ class Layout extends Component {
                 <Switch>
                     <Route path="/artists" component={PageArtists} />
                     <Route path="#" component={PageArtists} />
-                    {/* <Route path="/program" component={PageProgram} /> */}
+                    <Route path="/program" component={PageProgram} />
                     <Route path="#" component={PageProgram} />
                     <Route path="/hotel" component={PageHotel} />
                     <Route path="#" component={PageHotel} />

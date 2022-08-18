@@ -17,7 +17,7 @@ class Participants extends Component {
                 name: 'DJs',
                 image: require('../../../../assets/images/dj.jpg'),
                 alt: 'dva',
-                // link: '/artists/DJs'
+                link: '/artists/DJs'
             },
             {
                 name: 'BANDS',

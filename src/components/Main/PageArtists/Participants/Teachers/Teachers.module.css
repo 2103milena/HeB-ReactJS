@@ -16,3 +16,33 @@
 .Divv{
     display: inline-block;
 }
+
+.hdpslika{
+    margin: 60px 0px;
+}
+
+.hdpText{
+    margin-bottom: 40px;
+}
+
+.hdpslika, .hdpText{
+    width: 95%;
+}
+
+@media (min-width: 901px) {
+
+    .hdpContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .hdpText{
+        width: 100%;
+       
+    }
+    .hdpslika{
+        width: 80%;
+        margin-left: 100px;
+    }
+}

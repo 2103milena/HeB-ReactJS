@@ -3,8 +3,9 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import classes from './News.module.css';
 // import newsPic from '../../assets/images/postponed.jpg'
-import hebIsBackPic from '../../assets/images/10.png'
-import earlyPic from '../../assets/images/earlybird2.png'
+import hebIsBackPic from '../../assets/images/10.png';
+import earlyPic from '../../assets/images/earlybird2.png';
+import offer from '../../assets/images/oferrr.png';
 import Button from '../UI/Button/Button';
 
 
@@ -54,7 +55,7 @@ const Slide = () => {
     if (state === true) {
 
         firstSlide = <div className={classes.ImgSlide}>
-            <img className={classes.Pic} src={earlyPic} alt="newss" />
+            <img className={classes.Pic} src={offer} alt="newss" />
             <div className={classes.DivNews}>
                 {/* <div>See the latest and updated news of Havana en Belgrado 10 !</div> */}
                 <Button onClick={switchToImageHandler}>More info</Button>
@@ -77,7 +78,8 @@ const Slide = () => {
 
     } else if (state === false) {
 
-        firstSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> NEWS, NEWS, NEWS!!! 😉<br /><br /> Get ready!<br /><br />As we promiced, we are giving you a second chance to get your full pass at second special price. You just need to be among fastest 25, tomorrow at 6pm (CET) 😎⏰️<br /><br />Be fast, be HEB!! 😎
+        firstSlide = <div className={classes.TextSection}><div className={classes.textCarousel}> You have a group for HEB10? <br/><br/>
+        Write to us on time and get for your people full pass for a magical event, at a special price! ❤️😊<br/>
         </div><Button className={classes.Btn} onClick={switchToTextHandler}>Back</Button></div>
 
 

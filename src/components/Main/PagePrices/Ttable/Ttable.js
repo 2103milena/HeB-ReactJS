@@ -6,9 +6,9 @@ class Table extends Component {
 
     state = {
         details: [
-            { title: 'FULL PASS until May 31st', firstPrice: '120 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
-            { title: 'FULL PASS until July 31st', firstPrice: '130 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
-            { title: 'FULL PASS until August 31st', firstPrice: '140 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
+            // { title: 'FULL PASS until May 31st', firstPrice: '120 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
+            { title: 'FULL PASS until August 31st', firstPrice: '130 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
+            { title: 'FULL PASS from 1st September', firstPrice: '140 e', secondPrice: 'Workshops (2 days)', thirdPrice: 'Parties (4 days)', concerts: 'Concert' },
             { title: 'FULL PARTY PASS', firstPrice: '65 e', secondPrice: '/ ', thirdPrice: 'Parties (4 days)', concerts: 'Concert'  }
             // { title: 'PARTY PASS', firstPrice: '65 e' }
         ]
